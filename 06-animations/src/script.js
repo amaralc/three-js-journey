@@ -34,7 +34,13 @@ renderer.render(scene, camera)
 
 // Animations
 const tick = () => {
-  console.log('tick')
+  // Update objects
+  mesh.position.x += 0.01
+
+  // Render
+  renderer.render(scene, camera)
+
+  // Request frame
   window.requestAnimationFrame(tick)
 }
 
