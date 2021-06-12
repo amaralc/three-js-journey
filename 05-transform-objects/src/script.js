@@ -13,9 +13,14 @@ const scene = new THREE.Scene()
 const geometry = new THREE.BoxGeometry(1, 1, 1)
 const material = new THREE.MeshBasicMaterial({ color: 0xff0000 })
 const mesh = new THREE.Mesh(geometry, material)
-mesh.position.x = 3
-mesh.position.y = 7
-mesh.position.z = 5
+
+/**
+ * Set mesh position
+ */
+// mesh.position.x = 3
+// mesh.position.y = 7
+// mesh.position.z = 5
+mesh.position.set(3,7,5);
 console.log(mesh.position.length())
 
 /**
