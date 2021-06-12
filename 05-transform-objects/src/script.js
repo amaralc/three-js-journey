@@ -16,6 +16,7 @@ const mesh = new THREE.Mesh(geometry, material)
 mesh.position.x = 3
 mesh.position.y = 7
 mesh.position.z = 5
+console.log(mesh.position.length())
 scene.add(mesh)
 
 /**
