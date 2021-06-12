@@ -17,6 +17,13 @@ mesh.position.x = 3
 mesh.position.y = 7
 mesh.position.z = 5
 console.log(mesh.position.length())
+
+/**
+ * Update and calculate properties
+ */
+mesh.position.normalize()
+console.log(mesh.position.length())
+
 scene.add(mesh)
 
 /**
