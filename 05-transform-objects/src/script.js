@@ -42,6 +42,11 @@ camera.position.z = 3
 scene.add(camera)
 
 /**
+ * Distance from mesh to camera
+ */
+console.log(mesh.position.distanceTo(camera.position))
+
+/**
  * Renderer
  */
 const renderer = new THREE.WebGLRenderer({
