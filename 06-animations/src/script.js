@@ -35,7 +35,7 @@ renderer.render(scene, camera)
 // Animations
 const tick = () => {
   // Update objects
-  mesh.position.x += 0.01
+  mesh.rotation.y += 0.01
 
   // Render
   renderer.render(scene, camera)
