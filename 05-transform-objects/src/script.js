@@ -27,9 +27,10 @@ console.log(mesh.position.length())
 /**
  * Set mesh scale
  */
-mesh.scale.x = 1
-mesh.scale.y = 2
-mesh.scale.z = 3
+// mesh.scale.x = 1
+// mesh.scale.y = 2
+// mesh.scale.z = 3
+mesh.scale.set(2, 0.5, 0.5)
 
 /**
  * Update and calculate properties
