@@ -33,6 +33,13 @@ console.log(mesh.position.length())
 mesh.scale.set(2, 0.5, 0.5)
 
 /**
+ * Set mesh rotation
+ */
+mesh.rotation.X = Math.PI * 0.25
+mesh.rotation.y = Math.PI * 0.25
+mesh.rotation.z = Math.PI * 0.25
+
+/**
  * Update and calculate properties
  */
 // mesh.position.normalize()
