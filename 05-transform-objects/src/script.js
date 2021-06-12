@@ -76,6 +76,8 @@ const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height)
 camera.position.set(0,0,3)
 scene.add(camera)
 
+camera.lookAt(new THREE.Vector3(3,0,0))
+
 /**
  * Distance from mesh to camera
  */
