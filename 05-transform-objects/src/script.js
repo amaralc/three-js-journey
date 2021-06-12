@@ -40,6 +40,15 @@ mesh.rotation.x = Math.PI * 0.25
 mesh.rotation.y = Math.PI * 0.25
 
 /**
+ * Se mesh quaternion
+ * 
+ * Only explanations: 
+ * 
+ *   - It affects rotations;
+ *   - It is hard to understand;
+ */
+
+/**
  * Update and calculate properties
  */
 // mesh.position.normalize()
