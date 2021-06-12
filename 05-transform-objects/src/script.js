@@ -25,6 +25,13 @@ mesh.position.set(0.7,-0.6,1);
 console.log(mesh.position.length())
 
 /**
+ * Set mesh scale
+ */
+mesh.scale.x = 1
+mesh.scale.y = 2
+mesh.scale.z = 3
+
+/**
  * Update and calculate properties
  */
 // mesh.position.normalize()
