@@ -24,7 +24,8 @@ const mesh = new THREE.Mesh(
 scene.add(mesh)
 
 // Camera
-const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height, 0.1, 100)
+// const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height, 0.1, 100)
+const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, 100)
 camera.position.x = 2
 camera.position.y = 2
 camera.position.z = 2
@@ -55,3 +56,12 @@ const tick = () =>
 }
 
 tick()
+
+/** 
+ * References
+ * 
+ * https://threejs-journey.xyz/lessons/7
+ * https://threejs.org/docs/index.html?q=camera#api/en/cameras/PerspectiveCamera
+ * https://threejs.org/docs/index.html?q=camera#api/en/cameras/OrthographicCamera
+ * 
+ */
